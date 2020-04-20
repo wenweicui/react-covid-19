@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.list {
+    align-items: center;
+    padding: 0 1rem;
+    overflow: auto;
+    height: 30rem;
+}
+.list::-webkit-scrollbar {
+    width: 0.4rem;
+}
+.list::-webkit-scrollbar-track {
+    background: #d5e8f0;
+}
+.list::-webkit-scrollbar-thumb {
+    background-color: #87c7e2;
+    border-radius: 10rem;
+    
+}
+.search {
+    flex: 1;
+    display: flex;
+    padding: 15px 20px;
+    background-color: #f3f1ef;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-left: 10px;
+    background-color: #f3f1ef;
+    outline: none;
+    border: 0px;
+    font-size: 16px;
+}
+
+.input::-webkit-input-placeholder {
+    color: #95a5a6 !important;
+}
+    
+.input:-moz-placeholder { /* Firefox 18- */
+    color: #95a5a6 !important;
+}
+
+.input::-moz-placeholder {  /* Firefox 19+ */
+    color: #95a5a6 !important;  
+}
+
+.input:-ms-input-placeholder {  
+    color: #95a5a6 !important;
+}
