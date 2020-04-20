@@ -1,3 +1,9 @@
+## COVID-19 Global Dashboard
+
+- [mathdroid API](https://github.com/mathdroid/covid-19-api) (Data sourced from John Hopkins University CSSE)
+
+<img src="./screenshots.png" alt="Main Screen" width="800px"><br/>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
