@@ -2,7 +2,7 @@
   "name": "covid-19",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://wenweicui.github.io/react-covid-19/",
+  "homepage": "https://wenweicui.github.io/react-covid-19/",
   "dependencies": {
     "@material-ui/core": "^4.9.11",
     "@material-ui/icons": "^4.9.1",
@@ -55,5 +55,8 @@
     "icon": "./static/media/icon_teeth.0fe4500f.jpg",
     "color": "#AA00FF",
     "createdAt": 1587238709197
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

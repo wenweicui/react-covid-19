@@ -54,7 +54,8 @@ body {
 
 .mapContainer {
     width: 90%;
-    height: 260px;
+    height: 40vh;
+    min-height: 260px;
     z-index: 100;
     background: #cdecf9;
     border-radius: 1rem;
