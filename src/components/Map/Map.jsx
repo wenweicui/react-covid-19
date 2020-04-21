@@ -46,13 +46,13 @@ const Map = ({ data }) => {
           onViewportChange={updateViewport}
           mapboxApiAccessToken={TOKEN}
         >
-          {mapData? mapData.map((country, i) => {
-            let a = getRandomInt(20) + 4;
-            let b = a / 2;
-            let c = b - 2;
-            let d = Math.random();
-            let colors = ["#ff9478", '#f03434', '#f62459', '#d64541'];
-            let color = colors[Math.floor(Math.random() * colors.length)];
+          {mapData ? mapData.map((country, i) => {
+            const a = getRandomInt(20) + 4;
+            const b = a / 2;
+            const c = b - 2;
+            const d = Math.random();
+            const colors = ["#ff9478", '#f03434', '#f62459', '#d64541'];
+            const color = colors[Math.floor(Math.random() * colors.length)];
             return(
               <Marker
                 key={i}
