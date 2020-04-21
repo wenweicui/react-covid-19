@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import ReactMapGL, { Marker, Popup } from "react-map-gl"
+import ReactMapGL, { Marker } from "react-map-gl"
 import { fetchMapData } from '../../api'
 const TOKEN = "pk.eyJ1Ijoid2lsbGlhbWN1aSIsImEiOiJjazk3ang3cm0xN2VqM3FteWR4Y3Z3b29jIn0.UfW5fXExA5nXpAfo8Q9qAg"
 
@@ -13,11 +13,6 @@ const Map = ({ data }) => {
   })
 
   const [ mapData, setMapData ] = useState([]);
-  const [ showPopUp, setShowPopUp ] = useState({
-    state: false,
-    lat: 16,
-    long: 27 
-  });
 
   useEffect(() => {
     const fetchAPI = async () => {

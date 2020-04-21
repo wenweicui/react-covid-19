@@ -44,13 +44,3 @@ export const fetchMapData = async () => {
         return error;
     }
 }
-
-export const fetchCountries = async () => {
-    try {
-        const { data: { countries } } = await Axios.get(countryurl);  
-
-        return countries.map((country) => country.name);
-    } catch(error) {
-        return error;
-    }
-}
