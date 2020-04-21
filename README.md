@@ -1,4 +1,4 @@
-## COVID-19 Global Dashboard
+## COVID-19 Global Dashboard by React JS
 
 - [mathdroid API](https://github.com/mathdroid/covid-19-api) (Data sourced from John Hopkins University CSSE)
 
