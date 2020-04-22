@@ -1,7 +1,7 @@
 ## COVID-19 Global Dashboard by React JS
 
+- Demo -- please visit (https://wenweicui.github.io/react-covid-19/)
 - [mathdroid API](https://github.com/mathdroid/covid-19-api) (Data sourced from John Hopkins University CSSE)
-- [Demo] please visit (https://wenweicui.github.io/react-covid-19/)
 
 <img src="./screenshot.png" alt="Main Screen" width="800px"><br/>
 
